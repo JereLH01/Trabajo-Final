@@ -1,0 +1,278 @@
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    flex-wrap: wrap;
+    margin: auto 0px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* --------------- LOGO ------------*/
+
+svg {
+    width: 200px;
+    height: 80px;
+    margin: 0px 40px;
+
+
+}
+
+rect#rect1, polygon#polygon1{
+    animation: part_1 ease-in 5s  ;
+    animation-iteration-count:1 ;
+    }
+    
+rect#rect2,polygon#polygon2 {
+animation: part_2 ease-in 5s  ;
+animation-iteration-count:1 ;
+}
+@keyframes part_1{
+    0% {
+    transform: translate(0,-10px);
+    opacity:0;}
+    20% {
+    transform: translate(0,-10px);
+    opacity:0;
+    }
+    30% {
+    transform: translate(0,0);
+    opacity:1;}
+    90% {
+    transform: translate(0,0);
+    opacity:1;}
+    
+    100% {
+        transform: translate(0,0);
+        opacity:1;}
+}   
+    
+
+@keyframes part_2 {
+    0% {
+        transform: translate(0,-10px);
+        opacity:0;}
+        30% {
+        transform: translate(0,-10px);
+        opacity:0;}
+        40% {
+        transform: translate(0,0);
+        opacity:1;}
+        90% {
+        transform: translate(0,0);
+        opacity:1;}
+
+        100% {
+            transform:translate(0,0);
+            opacity:1;}
+        }  
+
+/* --------------- NAV ------------*/
+
+.navpadre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    background-color: rgb(24, 28, 48)
+
+
+}
+
+
+.menu {
+    display: flex;
+    margin: 3px 45px 0px;
+    
+}
+
+.links {
+    background-color: rgb(230, 221, 196);
+    margin: 20px;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: rgb(103, 137, 131) 2px 3px
+}
+
+
+
+/* ------------------- HEADER ---------------*/
+
+.header {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/Programer.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    background-attachment: fixed;
+
+    
+}
+
+.header-texto {
+    color: white;
+    font-size: 28px;
+    padding: 0px 100px;
+    text-shadow: 2px 2px gray, 6px 6px black;
+
+}
+
+
+/* -------------------MAIN -----------------*/
+
+.mainpadre {
+    background-color: rgb(24, 28, 48);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px;
+   
+}
+
+.divhijo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 50px;
+    gap: 20px;
+
+}
+
+.divhijo2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 50px;
+    gap: 20px;
+    flex-direction: row-reverse;
+}
+
+h2 {
+    text-shadow: 2px 2px black;
+    font-size:40px ; 
+    text-align: center;
+    color: #678983;
+}
+
+p {
+    color: rgb(230, 221, 196);
+    width: 45%;
+    
+
+}
+
+#p3 {
+    display: flex;
+    text-align: left;
+    width: 80%;
+
+    
+    
+}
+
+
+/* --------------- ARTICLE ------------*/
+
+.article {
+    background-color: rgb(24, 28, 48);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.section {
+    display: block;
+    padding: 3px;
+    background-color: black;
+    width: 70%;
+    
+    
+
+}
+
+video {
+    width: 100%;
+}
+
+
+
+
+.barra {
+    padding: 12px;
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin: 3px;
+}
+
+button {
+    padding: 12px;
+    width: 80px;
+    margin: 8px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(230, 221, 196);
+    box-shadow: rgb(103, 137, 131) 2px 3px;
+}
+
+.play-pause {
+    width: 10px;
+}
+
+
+#duracion {
+    color: white;
+    padding-right: 10px;
+    white-space: pre;
+}
+
+/*-------------- FOOTER-------------*/
+
+
+.footer {
+    background-color: #678983;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+
+}
+
+.footerhijo {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+}
+
+.logo {
+    height: 80px;
+}
+
+.h3footer {
+    font-size: 14px;
+}
+
+.footerp {
+    color: black;
+    text-align: right;
+}
+
+
+
+
+

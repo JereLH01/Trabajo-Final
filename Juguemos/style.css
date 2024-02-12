@@ -1,0 +1,201 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    flex-wrap: wrap;
+    margin: auto 0px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+/* --------------- LOGO ------------*/
+
+svg {
+    width: 200px;
+    height: 80px;
+    margin: 0px 40px;
+}
+
+rect#rect1, polygon#polygon1{
+    animation: part_1 ease-in 5s  ;
+    animation-iteration-count:1 ;
+    }
+    
+rect#rect2,polygon#polygon2 {
+animation: part_2 ease-in 5s  ;
+animation-iteration-count:1 ;
+}
+@keyframes part_1{
+    0% {
+    transform: translate(0,-10px);
+    opacity:0;}
+    20% {
+    transform: translate(0,-10px);
+    opacity:0;
+    }
+    30% {
+    transform: translate(0,0);
+    opacity:1;}
+    90% {
+    transform: translate(0,0);
+    opacity:1;}
+    
+    100% {
+        transform: translate(0,0);
+        opacity:1;}
+}   
+    
+
+@keyframes part_2 {
+    0% {
+        transform: translate(0,-10px);
+        opacity:0;}
+        30% {
+        transform: translate(0,-10px);
+        opacity:0;}
+        40% {
+        transform: translate(0,0);
+        opacity:1;}
+        90% {
+        transform: translate(0,0);
+        opacity:1;}
+
+        100% {
+            transform:translate(0,0);
+            opacity:1;}
+        }  
+
+
+/* --------------- NAV ------------*/
+
+.navpadre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    background-color: rgb(24, 28, 48)
+
+
+}
+
+
+.menu {
+    display: flex;
+    margin: 3px 45px 0px;
+    
+}
+
+.links {
+    background-color: rgb(230, 221, 196);
+    margin: 20px;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: rgb(103, 137, 131) 2px 3px
+}
+
+
+
+/* ------------------- HEADER ---------------*/
+
+.header {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/Programer.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    background-attachment: fixed;
+
+    
+}
+
+.header-texto {
+    color: white;
+    font-size: 28px;
+    padding: 0px 100px;
+    text-shadow: 2px 2px gray, 6px 6px black;
+
+}
+
+
+/* ------------- MAIN --------------*/
+
+
+.mainpadre{
+    padding: 100px 10px;
+    background-color: rgb(24, 28, 48);
+}
+
+
+h2{
+    text-shadow: 2px 2px black;
+    font-size: 40px;
+    text-align: center;
+    color: #678983;
+}
+
+.sectionpadre{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divhijo{
+    display: flex;
+    flex-direction: row;
+}
+
+.cajas {
+    width: 275px;
+    height: 400px;
+    display: flex;
+    border: 2px solid black;
+    background-color: grey;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color:  rgb(230, 221, 196);
+
+}
+
+.cajas:hover{
+    background-color: #1d1d1d
+}
+
+.divimagenes {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 40px;
+}
+
+.img {
+    width: 275px;
+    height: 400px;
+    
+}
+
+
+/* -----------BUTTON -----------*/
+
+.button {
+    background-color: rgb(230, 221, 196);
+    margin: 20px 82vh;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: rgb(103, 137, 131) 2px 3px;
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    
+
+}
+
+   

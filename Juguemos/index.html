@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/logo.ico">
+    <link rel="stylesheet" href="/Juguemos/style.css">
+    <title>Proyecto-Final</title>
+</head>
+<body>
+    <nav class="navpadre">
+        <div>
+            <a href="/Página Inicial/index.html">
+                <svg>
+                   <rect id="rect1" x="45" y="5" width="60" height="35" rx="5" fill="#F0E9D2"></rect>
+                   <rect id="rect2" x="50" y="10" width="50" height="25" rx="5" fill="#495579"></rect>
+                   <polygon id="polygon1" points="55 45 ,95 45,115 62,30 62" fill="#F0E9D2"></polygon>
+                   <polygon id="polygon2" points="57 48 ,92 48,104 58,43 58" fill="#495579"></polygon>
+                </svg>
+       
+            </a> 
+
+        </div>
+
+        <div class="menu">
+         <a class="links" href="/Historia/index.html">HISTORIA</a>
+         <a class="links" href="/Juguemos/index.html">JUGUEMOS</a>
+           
+        </div>
+
+    </nav>
+
+    <header class="header">
+      <div class="header-texto">
+        <h1>JUGUEMOS UN POCO</h1>
+       
+      </div>
+
+    </header>
+
+    <main class="mainpadre">
+        <h2>Armemos el rompecabezas y veamos que imagen es...</h2>
+        <section class="sectionpadre">
+            <div class="divhijo">
+                <div class="cajas" id="caja1">Arrastre y suelte la imágene aquí</div>
+                <div class="cajas" id="caja2">Arrastre y suelte la imágene aquí</div>
+                <div class="cajas" id="caja3">Arrastre y suelte la imágene aquí</div>
+
+            </div>
+
+            <div class="divimagenes" id="cajaimagenes">
+                <img class="img" id="imagen1" src="/Juguemos/Rompecabezas2.png">
+                <img class="img" id="imagen2" src="/Juguemos/Rompecabezas1.png">
+                <img class="img" id="imagen3" src="Rompecabezas3.png">
+
+
+            </div>
+
+        </section>
+        <button class="button" onclick="reiniciar()" >Reiniciar</button>
+
+
+    </main>
+
+  <script src="/Juguemos/script.js"></script>
+</body>
+</html>
